@@ -1,8 +1,46 @@
 // Your variable overrides
-$body-bg: #000;
-$body-color: white;
-$primary: hotpink;
+$body-bg: #1f1f1f;
+$body-color: #ffffff;
+$primary: #f76b50;
 $font-family-base: Arial;
+$secondary: #8e8e8e;
+
+$jumbotron-bg: #222222;
+
+$h2-font-size: 0.9rem;
+h1 {
+}
+
+.home {
+  height: 40px;
+  margin: 5px 5px;
+  margin-right: 10px;
+}
+
+.icons {
+  height: 40px;
+  margin: 5px 5px;
+  margin-right: 10px;
+}
+
+// .jumbotron {
+//   height: 400px;
+// }
+
+// img {
+//   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+//   filter: grayscale(100%);
+// }
+
+h2 {
+  border-bottom: solid 1px;
+  font-size: 3rem;
+}
+
+.test {
+  color: white;
+  font-size: 1.7rem;
+}
 
 // Include all Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
