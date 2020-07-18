@@ -1,4 +1,9 @@
 @charset "UTF-8";
+h2 {
+  font-size: 3rem;
+  text-decoration: underline;
+}
+
 .home {
   height: 40px;
   margin: 5px 5px;
@@ -11,14 +16,15 @@
   margin-right: 10px;
 }
 
-h2 {
-  border-bottom: solid 1px;
-  font-size: 3rem;
-}
-
-.test {
+.introtext {
   color: white;
   font-size: 1.7rem;
+}
+
+.contacttext {
+  margin: 0;
+  color: #8e8e8e;
+  font-size: 0.8rem;
 }
 
 /*!
