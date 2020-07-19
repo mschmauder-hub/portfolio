@@ -11,13 +11,254 @@
     <!-- Custom Bootstrap CSS -->
     <link rel="stylesheet" href="css/custom.css" />
 
-    <title>Hello, world!</title>
+    <title>Portfolio</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
-    <button class="btn btn-primary">Click me</button>
+    <header>
+      <nav class="navbar navbar-extends-sm justify-content-center">
+        <img class="home" src="img/icons8-home.svg" alt="github icon" />
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="#about">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="#interests">Interest</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="#cv">CV</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="jumbotron">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <h1>Marius Schmauder</h1>
+          </div>
+
+          <div class="col-sm">
+            <h2 id="about" class="text-primary">About me</h2>
+            <p class="introtext">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+              debitis.
+            </p>
+            <p class="text-secondary">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. In
+              dolorum illum ullam nihil commodi ipsa perspiciatis asperiores
+              nulla praesentium ducimus culpa voluptatibus repellendus laborum
+              blanditiis dicta maxime nobis, cupiditate quae!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container mb-5">
+      <div class="row">
+        <div class="col-sm">
+          <h2 id="interests" class="text-primary mb-5">My Interests</h2>
+
+          <div class="container text-center">
+            <div class="row">
+              <div class="col-sm">
+                <img
+                  style="height: 75px;"
+                  src="img/football-icon.svg"
+                  alt="football icon"
+                />
+                <p class="text-secondary">Sports</p>
+
+                <img
+                  style="height: 75px;"
+                  src="img/airplane_silhouette.svg"
+                  alt="airplane silhouette"
+                />
+                <p class="text-secondary">Travelling</p>
+              </div>
+
+              <div class="col-sm">
+                <img
+                  style="height: 75px;"
+                  src="img/letter-icon.svg"
+                  alt="letter icon"
+                />
+                <p class="text-secondary">Languages</p>
+                <img
+                  style="height: 75px;"
+                  src="img/simplebook.svg"
+                  alt="book icon"
+                />
+                <p class="text-secondary">Reading</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm">
+          <h2 id="skills" class="text-primary mb-5">My Skills</h2>
+
+          <div class="container text-center">
+            <div class="row">
+              <div class="col-sm ml">
+                <img
+                  style="height: 75px;"
+                  src="img/handshake-icon.svg"
+                  alt="handshake icon"
+                />
+                <p class="text-secondary">Teamwork</p>
+              </div>
+              <div class="col-sm">
+                <img
+                  style="height: 75px;"
+                  src="img/speechbubble.svg"
+                  alt="speech bubble"
+                />
+                <p class="text-secondary">Communication</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm">
+                <img
+                  style="height: 75px;"
+                  src="img/magnifying-glass.svg"
+                  alt="magnifying glass icon"
+                />
+                <p class="text-secondary">Problem solving</p>
+              </div>
+              <div class="col-sm">
+                <img
+                  style="height: 75px;"
+                  src="img/brain-icon.svg"
+                  alt="brain icon"
+                />
+                <p class="text-secondary">Critical Thinking</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container mb-5">
+      <h2 id="cv" class="text-primary text-center">
+        CV
+      </h2>
+      <div class="row justify-content-center">
+        <div class="cvbox">
+          <p class="introtext">2016-2020</p>
+          <p class="text-secondary">
+            Bachelor of Arts, Business Administration,
+            <span>Kwansei Gakuin University,</span> Nishinomiya Japan
+          </p>
+        </div>
+        <div class="cvbox">
+          <p class="introtext">2015-2016</p>
+          <p class="text-secondary">
+            Language school, <span>Osaka, Japan</span>
+          </p>
+        </div>
+        <div class="cvbox">
+          <p class="introtext">2014-2015</p>
+          <p class="text-secondary">
+            Work and Travel,
+            <span>
+              Japan
+            </span>
+          </p>
+        </div>
+        <div class="cvbox">
+          <p class="introtext">2009-2013</p>
+          <p class="text-secondary">
+            JAB Josef Antoetz KG,<span>Bielefeld</span>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container mb">
+      <div class="row">
+        <div class="col-sm">
+          <h2 id="contact" class="text-primary">
+            Get in Touch
+          </h2>
+          <p class="introtext">You can reach me under</p>
+
+          <div class="container mb-5">
+            <div class="col">
+              <div class="row">
+                <img
+                  style="height: 40px; margin-right: 10px; margin-top: 5px;"
+                  src="img/phone.svg"
+                  alt="phone icon"
+                />
+                <div>
+                  <p class="contacttext">Call me</p>
+                  <p style="font-size: 1.5rem;">0123-123-456-78</p>
+                </div>
+              </div>
+              <div class="row">
+                <img
+                  style="height: 40px; margin-right: 10px; margin-top: 5px;"
+                  src="img/mail-icon.svg"
+                  alt="mail icon"
+                />
+                <div>
+                  <p class="contacttext">E-mail</p>
+                  <p style="font-size: 1.5rem; margin: 0px;">
+                    something@mail.com
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <h2 class="text-primary mb-3">
+            My Projects
+          </h2>
+
+          <div class="container">
+            <div class="row">
+              <div class="text-center mr-4">
+                <a href="https://github.com/mschmauder-hub">
+                  <img
+                    style="height: 125px; margin-bottom: 10px;"
+                    src="img/github.svg"
+                    alt="github icon"
+                  />
+                </a>
+                <p class="contacttext">Github</p>
+              </div>
+
+              <div class="text-center">
+                <a href="https://gitlab.com/marius.schmauder.ms">
+                  <img
+                    style="height: 125px; margin-bottom: 10px;"
+                    src="img/gitlab.svg"
+                    alt="gitlab icon"
+                  />
+                </a>
+                <p class="contacttext">Gitlab</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer></footer>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

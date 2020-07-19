@@ -1,8 +1,71 @@
 // Your variable overrides
-$body-bg: #000;
-$body-color: white;
-$primary: hotpink;
+$body-bg: #1f1f1f;
+$body-color: #ffffff;
+$primary: #f76b50;
 $font-family-base: Arial;
+$secondary: #8e8e8e;
+
+$jumbotron-bg: #222222;
+
+$h2-font-size: 0.9rem;
+
+.jumbotron {
+  background-image: url(../img/my-profile.png);
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-position-x: 40%;
+  filter: grayscale(100%);
+}
+
+h2 {
+  font-size: 3rem;
+  text-decoration: underline;
+}
+.home {
+  height: 40px;
+  margin: 5px 5px;
+  margin-right: 10px;
+}
+
+.icons {
+  height: 40px;
+  margin: 5px 5px;
+  margin-right: 10px;
+}
+
+.introtext {
+  color: white;
+  font-size: 1.7rem;
+}
+
+.contacttext {
+  margin: 0;
+  color: $secondary;
+  font-size: 0.8rem;
+}
+
+.cvbox {
+  height: 200px;
+  width: 200px;
+  border: white solid 2px;
+  border-radius: 50px;
+  text-align: center;
+  margin: 15px;
+  padding: 5px;
+}
+
+span {
+  display: block;
+}
+
+.profile {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  height: 50%;
+  width: 50;
+  position: relative;
+  bottom: 0px;
+}
 
 // Include all Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
